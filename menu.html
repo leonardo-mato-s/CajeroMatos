@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>TARJETA</title>
+</head>
+<body>
+    <section class="caja-principal">
+        <section class="caja-superior">
+            <div class="pantalla">
+                <p id="titulo">BIENVENIDO </p>
+                <input id="caja-password" type="password" maxlength=8>  
+            </div>
+        </section>
+        <section class="caja-inferior">
+            <div class="numeros">
+                <button id="n1" class="botones-numero">1</button>
+                <button id="n2" class="botones-numero">2</button>
+                <button id="n3" class="botones-numero">3</button>
+                <button id="n4" class="botones-numero">4</button>
+                <button id="n5" class="botones-numero">5</button>
+                <button id="n6" class="botones-numero">6</button>
+                <button id="n7" class="botones-numero">7</button>
+                <button id="n8" class="botones-numero">8</button>
+                <button id="n9" class="botones-numero">9</button>
+                <button id="n10" class="botones-numero">.</button>
+                <button id="n11" class="botones-numero">0</button>
+                <button id="n12" class="botones-numero">.</button>
+            </div>
+            <article class="opciones">
+                <button id="cancel" class="boton-op">Cancel</button>
+                <button id="clear" class="boton-op">clear</button>
+                <button type="reset" onclick="ok()" id="ok" class="boton-op">Ok</button>
+                <button id="void" class="boton-op"></button>
+            </article>
+            <section class="relleno">
+                <article id="card" class="cajitas">
+                    <p>Card</p>
+                </article>
+                <article id="receipt" class="cajitas">
+                    <p>Receipt</p>
+                </article>                
+                <article id="cash" class="cajitas">
+                    <p>Cash</p>
+                </article>
+                <article id="deposit" class="cajitas">
+                    <p>Deposit</p>
+                </article>
+            </section>
+        </section>
+    </section>
+</html>
