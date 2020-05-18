@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:white;
+}
+.pantalla{ 
+    width: 600px;
+    height: 240px;
+    background-image:linear-gradient(to bottom,yellow , yellow );
+    margin: 5px 10px 5px 10px;
+    border:gray 10px solid;
+    border-radius: 10px;
+    padding: 14px;
+}
+.caja-principal{
+    width: 650px;
+    height: 550px;
+    background-color:gray;
+    background-image: linear-gradient(to bottom, gray, gray);
+    margin: auto;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.caja-superior{
+    width: 620px;
+    height: 300px;
+    padding: 0px 15px 10px 15px;
+    display: flex;
+}
+#caja-password{
+    width: 200px;
+    padding: 5px 5px 5px 5px;
+    margin-top: 8px;
+    border: rgb(223, 174, 14) 2.5px solid;
+    border-radius: 2px;
+}
+.caja-inferior{
+    width: 620px;
+    height: 220px;
+    padding: 0px 15px 10px 15px;
+    display: flex;
+}
+.numeros{
+    width: 200px;
+    height: 350;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.opciones{
+    width: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.relleno{
+    width: 300px;
+    border: 2px black solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.botones-numero{
+    width: 50px;
+    height: 45px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 10px;
+    border: black 2px solid;
+    background-image: linear-gradient(to top,white white);
+    font-size: 20px;
+}
+.boton-op{
+    width: 95px;
+    height: 40px;
+    border-radius: 15px;
+    border: black 2px solid;
+    margin: 5px 5px 5px 5px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.opciones #cancel{
+    background-color: red;
+    color: white;
+}
+.opciones #clear{
+    background-color:orange;
+    color: white;
+}
+.opciones #ok{
+    background-color: green;
+    color:white;
+}
+.opciones #void{
+    border: none;
+    background-color: gray;
+    border-radius: 15px;
+    border: black 2px solid;
+}
+.relleno .cajitas{
+    width: 95px;
+    height: 50px;
+    border: 2px black solid;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    color: white;
+}
+.relleno #card{
+    width: 110px;
+    height: 50px;
+}
+.relleno #receipt{
+    width: 110px;
+    height: 50px;
+}
+.relleno #cash{
+    width: 245px;
+    height: 30px;
+}
+.relleno #deposit{
+    width: 245px;
+    height: 30px;  
+}
